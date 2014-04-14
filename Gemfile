@@ -32,9 +32,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+	# after add gem you need to bundle install and restart server (ctrl+ c, and then rails s)
  gem "twitter-bootstrap-rails"
  gem 'simple_form'
  gem 'carrierwave'
+ gem "fog", "~> 1.3.1"
+ gem "figaro"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
